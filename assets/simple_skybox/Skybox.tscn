@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/simple_skybox/Skybox.gd" type="Script" id=1]
+
+[node name="Skybox" type="Spatial" index="0"]
+
+script = ExtResource( 1 )
+_sections_unfolded = [ "Transform" ]
+TextureFront = null
+TextureBack = null
+TextureBottom = null
+TextureUp = null
+TextureLeft = null
+TextureRight = null
+
+
